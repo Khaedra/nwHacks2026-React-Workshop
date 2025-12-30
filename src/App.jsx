@@ -12,6 +12,8 @@ function App() {
   //   "Figma",
   // ];
 
+  const firstName = "John";
+
   return (
     <div>
       {/* Landing Page */}
