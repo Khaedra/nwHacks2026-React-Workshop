@@ -1,0 +1,106 @@
+/* About Section */
+.about {
+    padding: 6rem 2rem;
+    background: #0a0a0a;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fafafa;
+    margin: 0 0 2rem 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 3rem;
+    height: 3px;
+    background: #047755;
+    border-radius: 2px;
+  }
+  
+  .about-box {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-box p {
+    color: #a3a3a3;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+.about-box p + p {
+  margin-top: 1rem;
+}
+
+.fun-fact-container {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fun-fact-title {
+  color: #047755;
+  margin: 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.fun-fact-text {
+  font-style: italic;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.fun-fact-button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  background: transparent;
+  border: 1px solid #047755;
+  color: #047755;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fun-fact-button:hover {
+  background: #047755;
+  color: white;
+}
+
+  .tech-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  
+  .chip {
+    padding: 0.5rem 1rem;
+    background: rgba(4, 119, 85, 0.15);
+    border: 1px solid rgba(4, 119, 85, 0.3);
+    border-radius: 100px;
+    color: #047755;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
