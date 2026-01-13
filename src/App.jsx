@@ -102,6 +102,7 @@ function App() {
           </div>
         </div>
       </section>
+      {/* End of About Me Section */}
 
       {/* Projects Section */}
       <section className="projects">
